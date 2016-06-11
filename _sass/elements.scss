@@ -1,6 +1,6 @@
 // Buttons
 %btnextend {
-	display: inline-block;
+  display: inline-block;
 	border: 1px solid;
 	border-color: rgba($color_mercury,0.5) rgba($color_bon_jour,0.5) $color_mischka;
 	border-radius: 3px;
@@ -8,8 +8,8 @@
 	background: $white;
 	color: $color_shark;
 	&:hover {
-		box-shadow: 0 0 1px 0 rgba($color_shark,0.5);
-		color: $red;
+		box-shadow: 0 0 10px 0 rgba($color_shark,0.5);
+		color: $blue;
 	}
 }
 .social-btn {
@@ -30,7 +30,7 @@
         color: $white;
       }
       &:hover {
-        background-color: $white;
+        background-color: $red;
         color: $success;
       }
     }
